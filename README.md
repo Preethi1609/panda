@@ -1,13 +1,13 @@
 # panda
-Launch RViz:
+Launch RViz:<br>
 roslaunch panda_moveit_config demo.launch
 
-Run the Python code:
+Run the Python code:<br>
 rosrun moveit_tutorials move_group_python_interface_tutorial.py
 
 In RViz, we should be able to see the following:
 
-Press <enter> in the shell terminal where you ran the rosrun command in between each step
+Press "enter" in the shell terminal where you ran the rosrun command in between each step
 
         The robot plans and moves its arm to the joint goal.
         The robot plans a path to a pose goal.
@@ -20,3 +20,10 @@ Press <enter> in the shell terminal where you ran the rosrun command in between 
         The box changes colors again to indicate that it is now detached.
         The box disappears.
 
+
+Pick and Place demo:<br>
+Rviz is launched:<br>
+roslaunch panda_moveit_config demo.launch
+
+Pick and place tutorial:<br>
+rosrun moveit_tutorials pick_place_tutorial
